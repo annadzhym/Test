@@ -1,0 +1,98 @@
+.container {
+    font-family: 'Roboto', sans-serif;
+}
+.info {
+    display: none;
+}
+.acordion {
+
+}
+.acordion__element {
+    position: relative;
+}
+.acordion__element--background {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.9);
+}
+.acordion__element--title {
+    color:  #808080;
+    font-size: 24px;
+    font-weight: 900;
+    text-align: center;
+}
+.acordion__element--subtitle {
+    color:  #363636;
+    font-size: 12px;
+    font-weight: 900;
+    line-height: 18px;
+    text-align: left;
+}
+.acordion__list {
+    font-weight: 300;
+    line-height: 24px;
+    text-align: left;
+    list-style-type: none;
+}
+.acordion__list--blueDots:before {
+    content: '•';
+    color:  #1c7fff;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 22px;
+    text-align: left;
+}
+.clients {
+
+}
+.clients__title {
+    color:  #363636;
+    font-size: 24px;
+    font-weight: 900;
+    text-align: center;
+}
+.clients__slogan {
+    color:  #363636;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    text-align: center;
+}
+.clients__button {
+    background-color:  #1c7fff;
+    height: 40px;
+    color:  #ffffff;
+    font-size: 11px;
+    font-weight: 900;
+    line-height: 26px;
+    text-align: center;
+    text-transform: uppercase;
+    border: none;
+}
+.clients__button--desktop {
+    display: none;
+}
+.agrotechnics {
+    background: url("../img/agro.png") no-repeat 100%;
+    background-size: cover;
+}
+.automobile{
+    background: url("../img/automobile.png") no-repeat 100%;
+    background-size: cover;
+}
+.cargo {
+    background: url("../img/cargo.png") no-repeat 100%;
+    background-size: cover;
+}
+.specialEquipment {
+    background: url("../img/specialEquipment.png") no-repeat 100%;
+    background-size: cover;
+}
+.train {
+    background: url("../img/train.png") no-repeat 100%;
+    background-size: cover;
+}
